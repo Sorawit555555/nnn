@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+nav {
+    padding: lrem;
+    background-color: hsl(0, 0%, 62%);
+
+   
+}
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo a {
+    line-height: 60px;
+    padding: 0px 10px;
+    font-size: 14px;
+    font-weight: 600;  
+    height: 60px;
+    font-size: 2rem;
+    color: #333;
+    text-decoration: none;
+}
+.search-from {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+/*ทำเนียบรุ่น*/
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.font-medium {
+    font-weight: 500;
+}
+.text-sm {
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+.py-2\.5 {
+    padding-top: .625rem;
+    padding-bottom: .625rem;
+}
+.px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+.bg-blue-700 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(29 78 216 / var(--tw-bg-opacity));
+}
+.m-2 {
+    margin: 1rem;
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+   
+}
+
+.menu li {
+    margin:  0 1rem;
+    display: block;
+}
+
+.menu li a {
+    font-size: 14px;
+    font-weight: 600;  
+    height: 60px;
+    line-height: 60px;
+    padding: 0px 10px;
+    color: #000000; 
+    text-decoration: none;
+    display: block;
+   
+}
+
+
+.menu  li a:hover
+{
+    background: #686868;
+    color: #fff;
+    transition: all .3s;
+}
+    
+
+
+.hero {
+    background-image: blue;
+}
+.hero-con {
+    display: flex;
+    background-color: #fff;
+}
+.hero-info {
+    width: 100%;
+    padding: 2rem;
+}
+.hero-info h3 {
+    font-size: 2rem;
+    margin: 2rem;
+    display: flex;
+}
+
+.hero-info p {
+    margin: 1rem 0;
+}
+
+.hero-info .hero-btn {
+    display: inline-block;
+    background-color: cornflowerblue;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+
+
+
+
+.hero-img img {
+    padding: 2rem;
+    width: 100%;
+    margin: 2rem;
+}
+.blog-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+    align-items: center;
+}
+
+
+
+.blog-title {
+    margin: 2rem 0;
+
+}
+
+.blog-item img {
+    width: 100%;
+    height: 15rem;
+}
+.blog-item h4 {
+    margin-top: 1rem;
+
+}
+.blog-item p {
+    margin: 1rem 0;
+    
+}
+.blog-item a {
+    display: inline-block;
+    color: #fff;
+   background-color:  cornflowerblue;
+   padding: 0.5rem 1rem;
+   text-decoration: none;
+   border-radius: 5px;
+  
+   
+}
+
+
+.footer-top {
+    margin: 2rem;
+    padding: 3rem;
+    background-color: #333;
+    color: #fff;
+
+}
+.footer-top-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+.footer-top-item-con {
+    display: flex;
+    margin: 1rem 0;
+}
+.footer-top-item-con .date {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+}
+.footer-top-item:nth-child(2) h4 {
+    margin-bottom: 1rem;
+}
+.footer-top-item:nth-child(3) h4 {
+    margin-bottom: 1rem;
+}
+.footer-bottom {
+    background-color: #fff;
+    padding: 1rem;
+    text-align: center;
+    
+}
+.footer-top-item h4 p{
+    display: flex;
+    margin: 1rem 0;
+}
