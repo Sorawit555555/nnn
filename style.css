@@ -231,3 +231,6 @@ text-white {
     display: flex;
     margin: 1rem 0;
 }
+.col mb-3p{
+    background-color:rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;  
+}
